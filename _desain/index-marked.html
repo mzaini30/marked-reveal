@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>presentasi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../reveal/css/reveal.css"/>
+    <link rel="stylesheet" href="../reveal/css/theme/white.css"/>
+    <style>
+        pre code {
+            background: #fff;
+            color: #000;
+        }
+        textarea.markdown {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <textarea class="markdown">
+
+## Hubungan Antara Hari Libur dan Kepuasan Kerja
+
+Oleh: Muhammad Zaini (muhzaini30@gmail.com)
+
+---
+
+بسم الله الرحمن الرحيم
+
+---
+
+1. _Refreshing_ dari kejenuhan
+1. Mengobati rindu pada keluarga
+1. Menumbuhkan ide cemerlang
+
+    </textarea>
+    <div class="reveal">
+        <div class="markdown slides"></div>
+    </div>
+    <script src="../bin/jquery.min.js"></script>
+    <script src="../bin/marked-reveal.min.js"></script>
+    <script>
+        $("div.markdown").html("<section>"+marked($("textarea.markdown").val())+"</section>")
+    </script>
+    <script src="../reveal/js/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            slideNumber: true,
+            history: true,
+            mouseWheel: true,
+            transition: "slide"
+        })
+    </script>
+</body>
+</html>
+
+<!--
+
+// transition: none, fade, slide, convex, concave, zoom
+
+
+-->
