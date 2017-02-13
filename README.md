@@ -10,7 +10,7 @@ Berikut ini adalah skrip dari `index.html`:
 <textarea class="markdown">
 
 
-### Warna-Warna Pelangi
+# Warna-Warna Pelangi
 
 Oleh: Muhammad Zaini (LINE: mzaini30)
 
