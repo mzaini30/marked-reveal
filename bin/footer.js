@@ -10,10 +10,12 @@ document.writeln(" \
     <scr"+"ipt src='reveal/js/reveal.js'></scr"+"ipt>\
     <scr"+"ipt>\
         Reveal.initialize({\
+            width: 1920,\
+            height: 1080,\
             slideNumber: true,\
             history: true,\
             mouseWheel: true,\
-            transition: 'zoom'\
+            transition: 'slide'\
         })\
     </scr"+"ipt>\
 </body>\
